@@ -23,3 +23,17 @@ main section figure {
 main section figure figcaption {
   text-align: center;
 }
+
+@media screen and (min-width: 50em) {
+  body {
+    min-height: 100vh;
+  }
+  section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  section figure{
+    width: 30%;
+  }
+}

@@ -45,3 +45,9 @@ main form div button:focus{
     background-color: #5870cb;
     border: 2px solid #8c9eff;;
 }
+
+@media screen and (min-width: 50em){
+    main{
+      min-height: 70vh;
+    }
+}
