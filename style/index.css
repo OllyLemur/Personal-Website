@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+@import 'common_style.css';
+@import 'header.css';
+@import 'footer.css';
+
+main{
+    margin-top: 1rem;
+}
+
+main aside img{
+    width: 100%;
+}
+
+main aside {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+main article h2{
+    text-align: center;
+    font-family: "Aboreto", cursive;
+    font-size: 2.5rem;
+}
+
+main article p{
+    padding: 0 2rem;
+}
